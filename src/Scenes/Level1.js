@@ -11,8 +11,8 @@ class Level1 extends Phaser.Scene {
         this.load.image("player", "rifle.png");
         this.load.image("bullet", "icon_bullet_silver_short.png");
         this.load.image("target", "target_red1.png");
-        this.load.audio("shoot", "impactGeneric_light_004.OGG");
-        this.load.audio("hit", "impactGeneric_light_002.OGG");
+        this.load.audio("shoot", "impactGeneric_light_004.ogg");
+        this.load.audio("hit", "impactGeneric_light_002.ogg");
     }
 
     create() {
