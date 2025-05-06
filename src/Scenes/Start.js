@@ -37,6 +37,16 @@ GETTING HIT REMOVES ONE BULLET`, {
                     .setInteractive()
                     .on('pointerdown', () => this.scene.start("Level1"));
                 startButton.setOrigin(0.5, 0.5);
+
+                const creditsButton = this.add.text(250, 650, 'CREDITS', { fontFamily: '"Press Start 2P"', fontSize: '24px', align: 'center', color: '#ffffff'})
+                    .setInteractive()
+                    .on('pointerdown', () => this.scene.start("Credits"));
+                creditsButton.setOrigin(0.5, 0.5);
+                
+                const controlsButton = this.add.text(750, 650, 'CONTROLS', { fontFamily: '"Press Start 2P"', fontSize: '24px', align: 'center', color: '#ffffff'})
+                    .setInteractive()
+                    .on('pointerdown', () => this.scene.start("Controls"));
+                controlsButton.setOrigin(0.5, 0.5);
             }
         });
 

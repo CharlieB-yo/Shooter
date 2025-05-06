@@ -5,7 +5,6 @@ class End extends Phaser.Scene {
     }
 
     preload() {
-        this.load.script('webfont', 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js');
     }
     create() {
         this.score = this.registry.get('score');

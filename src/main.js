@@ -11,7 +11,7 @@ let config = {
     },
     width: 1000,
     height: 800,
-    scene: [Start, Level1, Level2, Level3, End]
+    scene: [Start, Level1, Level2, Level3, End, Credits, Controls]
 }
 
 // Global variable to hold sprites
